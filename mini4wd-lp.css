@@ -29,3 +29,25 @@ background-image: -o-linear-gradient(45deg,  #000000 25%, #000000 25%, transpare
 background-image: linear-gradient(45deg,  #000000 25%, #000000 25%, transparent 25%, transparent 75%, #000000 75%, #000000 75%),
                   linear-gradient(-135deg, #000000 25%, #000000 25%, transparent 25%, transparent 75%, #000000 75%, #000000 75%);
 }
+
+.entry-btn {
+  position: relative;
+  display: inline-block;
+  width: 8em;
+  height: 3em;
+  line-height: 2.2em;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #3542fd;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+  font-size: 1.2em;
+  font-weight: bold;
+  border: solid 2px #3542fd;
+}
+
+.entry-btn:hover {
+  background: #ff7167;
+  color: white;
+}
